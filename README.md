@@ -1,2 +1,26 @@
-# SSH-Logger
-SSH Logging Python Script
+# 🔐 SSH-Logger
+
+Postet bei **SSH-Logins** eine Discord-Nachricht (Embed) mit:
+- Server-Name, Server-IP, User-IP, User
+- Server-OS, Login-Zeit
+- **Uptime**, **Load Avg (1|5|15)**
+- **Failed SSH Logins (last 5m)**
+- Geolocation (City/Region/Country) & ISP
+
+> Hinweis: Der Hook wird – über **`/etc/profile`** ausgelöst (Login-Shells / interaktive SSH-Logins).
+
+---
+
+## ✨ Features
+
+- 🌍 **Geo/ISP** – ein Request an ipinfo
+- 🕒 **Systeminfos** – OS, Uptime, Loadavg, fehlgeschlagene SSH-Logins (5 Min.)
+- 🧱 **Sonstiges** – Coming soon
+
+---
+
+## 📦 Installation (Copy & Paste)
+
+### 1) System aktualisieren
+```bash
+sudo apt update && sudo apt upgrade -y
