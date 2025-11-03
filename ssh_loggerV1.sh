@@ -12,7 +12,7 @@ USER_IP=$(echo "${SSH_CONNECTION:-}" | awk '{print $1}')
 USER_NAME=$(whoami)
 
 # Login Time
-LOGIN_TIME=$(date +"%Y-%m-%d %H:%M:%S")
+LOGIN_TIME=$(date +"%d-%m-%Y %H:%M:%S")
 
 # Geolocation & ISP (1 Request)
 IPINFO_JSON=$(curl -fsS "https://ipinfo.io/${USER_IP}/json" 2>/dev/null || true)
