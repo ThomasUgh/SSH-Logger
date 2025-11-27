@@ -7,8 +7,6 @@ Postet bei **SSH-Logins** eine Discord-Nachricht (Embed) mit:
 - **Failed SSH Logins (last 5m)**
 - Geolocation (City/Region/Country) & ISP
 
-> Hinweis: Der Hook wird – über **`/etc/profile`** ausgelöst (Login-Shells / interaktive SSH-Logins).
-
 ---
 
 ## ✨ Features
